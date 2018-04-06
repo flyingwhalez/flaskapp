@@ -1,4 +1,4 @@
-
+*
 {
     margin: 0;
     padding: 0;
@@ -6,28 +6,24 @@
 }
 
 
-header
-{
+header{
     background-image: url(maison.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
 
-.principal
-{
+.principal{
     float: right;
     list-style: none;
     margin-top: 30px;
 }
 
-.principal li
-{
+.principal li{
     display: inline-block;
 }
 
-.principal li a
-{
+.principal li a{
     color: white;
     text-decoration: none;
     padding: 5px 20px;
@@ -35,7 +31,34 @@ header
     font-size: 15px;
 }
 
-.principal li.active a
-{
+.principal li.active a{
     border: 1px solid white;
+}
+
+.principal li a:hover{
+    border: 1px solid white;
+}
+
+body{
+    font-family: monospace;
+}
+
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.intro{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px
 }
